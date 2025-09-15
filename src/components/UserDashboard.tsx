@@ -54,7 +54,6 @@ export function UserDashboard() {
         </div>
       </div>
 
-      {/* Overview Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <WalletCard
           title="Saldo Crypto"
@@ -92,7 +91,6 @@ export function UserDashboard() {
         />
       </div>
 
-      {/* Detailed Tabs */}
       <Tabs defaultValue="crypto" className="w-full">
         <TabsList className="grid w-full grid-cols-4 bg-secondary">
           <TabsTrigger value="crypto">Crypto</TabsTrigger>

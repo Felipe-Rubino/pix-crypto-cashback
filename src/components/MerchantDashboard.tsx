@@ -51,7 +51,6 @@ export function MerchantDashboard() {
         </div>
       </div>
 
-      {/* Overview Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <WalletCard
           title="Vendas PIX → Crypto"
@@ -89,7 +88,6 @@ export function MerchantDashboard() {
         />
       </div>
 
-      {/* Detailed Tabs */}
       <Tabs defaultValue="pix-crypto" className="w-full">
         <TabsList className="grid w-full grid-cols-4 bg-secondary">
           <TabsTrigger value="pix-crypto">PIX → Crypto</TabsTrigger>

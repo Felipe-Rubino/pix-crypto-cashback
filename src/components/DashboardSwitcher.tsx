@@ -10,7 +10,6 @@ export function DashboardSwitcher() {
 
   return (
     <div className="min-h-screen p-6 space-y-6">
-      {/* Role Switcher */}
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-8">
         <div className="flex items-center gap-3">
           <div className="p-2 rounded-lg bg-primary/10">
@@ -63,7 +62,6 @@ export function DashboardSwitcher() {
         </Badge>
       </div>
 
-      {/* Dashboard Content */}
       {activeRole === "merchant" ? <MerchantDashboard /> : <UserDashboard />}
     </div>
   );
